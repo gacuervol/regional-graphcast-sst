@@ -19,11 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://doi.org/10.1016/j.ocemod.2026.102782"><img src="https://img.shields.io/badge/DOI-10.1016/j.ocemod.2026.102782-5e81ac?style=flat-square&logo=doi&logoColor=white" alt="DOI"></a>
-  <a href="https://arxiv.org/abs/2505.24429"><img src="https://img.shields.io/badge/arXiv-2505.24429-b48ead?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
-  <!-- <img src="https://img.shields.io/github/v/release/usuario/repo?style=flat-square&logo=git" alt="Version"> -->
-  <!-- <a href="https://github.com/user/repo/actions"><img src="https://img.shields.io/badge/build-passing-a3be8c?style=flat-square&logo=githubactions&logoColor=white" alt="Build"></a> -->
-  <a href="#license"><img src="https://img.shields.io/badge/license-MIT-4c566a?style=flat-square" alt="License"></a>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Divider">
 </p>
 
 <p align="center">
@@ -37,9 +33,12 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Divider">
+  <a href="https://doi.org/10.1016/j.ocemod.2026.102782"><img src="https://img.shields.io/badge/DOI-10.1016/j.ocemod.2026.102782-5e81ac?style=flat-square&logo=doi&logoColor=white" alt="DOI"></a>
+  <a href="https://arxiv.org/abs/2505.24429"><img src="https://img.shields.io/badge/arXiv-2505.24429-b48ead?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
+  <!-- <img src="https://img.shields.io/github/v/release/usuario/repo?style=flat-square&logo=git" alt="Version"> -->
+  <!-- <a href="https://github.com/user/repo/actions"><img src="https://img.shields.io/badge/build-passing-a3be8c?style=flat-square&logo=githubactions&logoColor=white" alt="Build"></a> -->
+  <a href="#license"><img src="https://img.shields.io/badge/license-MIT-4c566a?style=flat-square" alt="License"></a>
 </p>
-
 
 ## 📢 Latest Updates
 - **June 6, 2025**: Preprint released on [arxiv link](https://arxiv.org/abs/2505.24429).
