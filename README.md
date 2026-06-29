@@ -90,10 +90,10 @@ If you use this tool, framework, or the optimized pre-trained weights in your re
 <a name="installation"></a>
 ## 📦 Installation
 
-### As a Library (Recommended for Integration)
+### Dependencies
 
 ```bash
-pip install git+[https://github.com/user/repo.git@main](https://github.com/user/repo.git@main)
+conda env create -f environment.yml
 
 ```
 
