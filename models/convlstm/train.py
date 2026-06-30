@@ -72,3 +72,21 @@ state_trained, hist = train_model(
     num_epochs=150,
     t_steps=1,
     )
+# Define the checkpoint directory and prefix
+if os.path.exists('/home/user/repo/model/convlstm/params/'):
+    print("Directory exists")
+    n_items = len(os.listdir('/home/user/repo/convlstm/params/'))
+    path = ocp.test_utils.erase_and_create_empty(
+        f'/home/user/repo/convlstm/params/ConvLSTM_v{n_items+1}/'
+        )
+else:
+    path = ocp.test_utils.erase_and_create_empty(
+        '/home/user/repo/model/convlstm/params/'
+        )
+# Define the checkpointer
+checkpointer = ocp.StandardCheckpointer()
+# Save the trained state
+checkpointer.save(
+    path / 'params_cells_2_kernel_3_strides_padding_1', 
+    state_trained
+    )
