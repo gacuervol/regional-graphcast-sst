@@ -14,8 +14,8 @@ import itertools
 import dataclasses
 import os, sys
 from scipy.ndimage import distance_transform_edt
-sys.path.append("/home/user/PhD_repo/src") 
-sys.path.append('/home/user/PhD_repo/models')
+sys.path.append("/home/user/repo/src") 
+sys.path.append('/home/user/repo/models')
 from art1_tools import graphcast_newvars
 from art1_tools import casting_newvars
 from art1_tools import data_utils_newvars
@@ -161,7 +161,7 @@ def train_step(
 train_step_jitted = jax.jit(train_step, device=jax.devices(backend='cpu')[0])
 
 # Compilar la transformación run_forward con Haiku, JAX JIT y las configuraciones del modelo y la tarea.
-data_path = "~/Doctorado/DB/GraphCast_data/IBI_SST_L4_FULL.nc"
+data_path = "~/repo/data/IBI_SST_L4_FULL.nc"
 data_loader = data_load.Loader(
     n_samples=12, 
     min_batch_size=8, 
@@ -229,7 +229,7 @@ os.environ['XLA_FLAGS'] = (
 user_linux, user_win = 'your_user', 'your_user'
 # Logs file
 path_logs = "path\\logs\\"
-path_logs_linux = f'/home/{user_linux}/Doctorado/logs/'
+path_logs_linux = f'/home/{user_linux}/repo/logs/'
 
 
 def main(grid_hyperparam: dict, mask_filter: str, fast_test: bool, n_test: int):
