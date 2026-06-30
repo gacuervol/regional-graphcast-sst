@@ -99,22 +99,16 @@ conda env create -f environment.yml
 
 ```
 
-### For Production / Microservices (Docker Ecosystem)
-
-```bash
-pip install git+https://github.com/gacuervol/regional-graphcast-sst.git@main
-
-```
-
 ---
 <a name="quick-start"></a>
 ## 🚀 Quick Start
 
-Initialize the regional engine using our pre-trained weights tuned specifically for the Moroccan subregion (CCUS):
+Train the regional engine specifically for the Moroccan subregion (CCUS):
 
-```python
-import jax
+```bash
+nohup ~/repo/train.sh &
 ```
+
 <a name="reproducibility"></a>
 ## 🧪 Reproducibility Archive (The Frozen Snapshot)
 
@@ -122,28 +116,10 @@ To ensure strict compliance with scientific integrity, the exact environment, in
 
 To replicate the paper's exact figures:
 
-1. **Checkout the immutable publication tag:**
+**Checkout the demo notebook:**
 ```bash
-git checkout tags/v1.0-paper-release -b paper-reproducibility
-
+demo.ipynb
 ```
-
-
-2. **Restore the deterministic environment:**
-```bash
-conda env create -f environments/paper_environment.yml
-conda activate evo-paper-frozen
-
-```
-
-
-3. **Execute the reproduction pipeline:**
-```bash
-python scripts/reproduce_evaluation.py --config configs/paper_baseline.yaml
-
-```
-
-
 *Note: Results generated via this snapshot will match the paper identically but lack the performance enhancements, hardware optimizations, and bug fixes introduced in the active `main` branch.*
 
 ---
