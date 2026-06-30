@@ -106,7 +106,7 @@ conda env create -f environment.yml
 Train the regional engine specifically for the Moroccan subregion (CCUS):
 
 ```bash
-nohup ~/repo/train.sh &
+nohup ~/repo/training.sh &
 ```
 
 <a name="reproducibility"></a>
