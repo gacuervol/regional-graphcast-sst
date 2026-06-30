@@ -43,6 +43,8 @@
 ## 📢 Latest Updates
 - **June 6, 2025**: Preprint released on [arxiv link](https://arxiv.org/abs/2505.24429).
 - **June 18, 2026**: Ocean Modelling paper released on [Elsevier link](https://doi.org/10.1016/j.ocemod.2026.102782). 🔥🔥
+- **June 30, 2026**: Initial public codebase release. *Note: This represents my early research code; it is functional but lacks production-grade structure and testing. Refactoring is recommended for further integration.*
+
 
 ## 📖 Ecosystem Paradigm: Paper as a Blueprint, Code as a Tool
 
