@@ -120,7 +120,7 @@ To replicate the paper's exact figures:
 ```bash
 demo.ipynb
 ```
-*Note: Results generated via this snapshot will match the paper identically but lack the performance enhancements, hardware optimizations, and bug fixes introduced in the active `main` branch.*
+*Note: While the results generated via this snapshot align with the paper and include additional data, they lack the detailed context, explanations, and discussions thoroughly developed in the original article.*
 
 ---
 <a name="evolution-roadmap"></a>
